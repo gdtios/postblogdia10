@@ -1,0 +1,23 @@
+# Arquivos do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ambiente Virtual
+venv/
+
+# Arquivos de banco de dados do Django
+db.sqlite3
+
+# Arquivos de migração
+*/migrations/
+
+# Arquivos do IDE (ex: VS Code, PyCharm)
+.vscode/
+.idea/
+
+# Arquivos de log
+*.log
+
+# Arquivos de cache
+*.sqlite3
