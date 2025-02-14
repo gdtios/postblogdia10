@@ -16,8 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-
+from meus_posts import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('posts/', include('meus_posts.urls')), 
+    path('posts/', include('meus_posts.urls')),
+    path('paginaembranco/', views.blank_page, name='blank_page'),
+    path('nova_app/', include('deep.urls'))
 ]
